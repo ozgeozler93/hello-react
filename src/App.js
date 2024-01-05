@@ -53,17 +53,17 @@ function App() {
 
     
 
-    <>
+    // 
     // <h1>{name}  {surname} </h1>
     // <h1>{isLoggedIn && `My name is  ${name} , surname is  ${surname}`}
     // </h1>
 
     // {!isLoggedIn&& 'Giris yapmadiniz, giris yapmalisiniz.'}
 
-
-    
+    <>
+    <h1>
     {isLoggedIn? `Giris yapildi. My name is  ${name} , surname is  ${surname}` : 'Giris yapilmadi.'}
-    
+    </h1>
     </>
   );
 }
