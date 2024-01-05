@@ -2,9 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 
+const name = 'Ozgee';
+const surname = 'Ozler'; 
 
 function App() {
   return (
+
+    //commit 1
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
@@ -22,26 +26,37 @@ function App() {
     //   </header>
     // </div>
 
-    <div>
-      <h1>My React App</h1>
-      <p>Welcome to my React App, more to come...</p>
-      <Header>
+    //commit 2
 
-      </Header>
+    // <div>
+    //   <h1>My React App</h1>
+    //   <p>Welcome to my React App, more to come...</p>
+    //   <Header>
 
-      <p className='xyz'>lorem ipsum  lore ipsum 
-      lorem ipsum  lore ipsum 
-      lorem ipsum  lore ipsum 
-      lorem ipsum  lore ipsum        
-      </p>
+    //   </Header>
 
-      <label htmlFor ="myinput"> 
-      Name :
-        <input id =" myinput"/>
-      </label>
+    //   <p className='xyz'>lorem ipsum  lore ipsum 
+    //   lorem ipsum  lore ipsum 
+    //   lorem ipsum  lore ipsum 
+    //   lorem ipsum  lore ipsum        
+    //   </p>
+
+    //   <label htmlFor ="myinput"> 
+    //   Name :
+    //     <input id =" myinput"/>
+    //   </label>
 
 
-    </div>
+    // </div>
+
+
+    
+
+    <>
+    <h1>{name}  {surname} </h1>
+    <h1>{`Benim adim ${name} , soyadim ${surname}`} 
+    </h1>
+    </>
   );
 }
 
