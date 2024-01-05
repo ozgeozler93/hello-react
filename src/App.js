@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+import User from './components/User';
 
 const name = 'Ozgee';
 const surname = 'Ozler'; 
-const isLoggedIn = true;
+const isLoggedIn = false;
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
     // {!isLoggedIn&& 'Giris yapmadiniz, giris yapmalisiniz.'}
 
     <>
+
+    <User name="Ozge" surname= "Ozler" isLoggedIn={false}/>
     <h1>
     {isLoggedIn? `Giris yapildi. My name is  ${name} , surname is  ${surname}` : 'Giris yapilmadi.'}
     </h1>
