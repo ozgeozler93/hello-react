@@ -5,7 +5,7 @@ import User from './components/User';
 
 const name = 'Ozgee';
 const surname = 'Ozler'; 
-const isLoggedIn = false;
+const isLoggedIn = true;
 
 function App() {
   return (
@@ -63,7 +63,7 @@ function App() {
 
     <>
 
-    <User name="Ozge" surname= "Ozler" isLoggedIn={false}/>
+    <User name="Ozge" surname= "Ozler" isLoggedIn={true} age={29}/>
     <h1>
     {isLoggedIn? `Giris yapildi. My name is  ${name} , surname is  ${surname}` : 'Giris yapilmadi.'}
     </h1>
