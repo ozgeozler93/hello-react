@@ -4,6 +4,7 @@ import Header from './components/Header';
 
 const name = 'Ozgee';
 const surname = 'Ozler'; 
+const isLoggedIn = false;
 
 function App() {
   return (
@@ -54,7 +55,7 @@ function App() {
 
     <>
     <h1>{name}  {surname} </h1>
-    <h1>{`Benim adim ${name} , soyadim ${surname}`} 
+    <h1>{isLoggedIn && `Benim adim ${name} , soyadim ${surname}`}
     </h1>
     </>
   );
