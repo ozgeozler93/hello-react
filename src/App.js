@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+
 
 function App() {
   return (
@@ -23,6 +25,22 @@ function App() {
     <div>
       <h1>My React App</h1>
       <p>Welcome to my React App, more to come...</p>
+      <Header>
+
+      </Header>
+
+      <p className='xyz'>lorem ipsum  lore ipsum 
+      lorem ipsum  lore ipsum 
+      lorem ipsum  lore ipsum 
+      lorem ipsum  lore ipsum        
+      </p>
+
+      <label htmlFor ="myinput"> 
+      Name :
+        <input id =" myinput"/>
+      </label>
+
+
     </div>
   );
 }
